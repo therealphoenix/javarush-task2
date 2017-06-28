@@ -8,9 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.klindziuk.test.model.Book;
-import com.klindziuk.test.model.User;
 import com.klindziuk.test.repository.BookRepository;
-import com.klindziuk.test.repository.UserRepository;
 
 @Service
 public class BookServiceImpl implements BookService {
